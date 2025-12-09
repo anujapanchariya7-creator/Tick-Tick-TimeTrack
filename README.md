@@ -99,6 +99,9 @@ Open with Live Server or any local server:
 # Using VS Code Live Server
 Right-click → "Open with Live Server"
 
+Video link : 
+
+
 📌 Future Enhancements
 
 Weekly summary
