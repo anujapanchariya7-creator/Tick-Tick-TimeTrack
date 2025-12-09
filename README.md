@@ -10,7 +10,7 @@ Quick Project Structure
 ├──  spa.js
 ├──  dashboard.html
 ├──  dashboard.css
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 TimeTrack — Productivity & Activity Tracking App
 
 TimeTrack is a clean, modern Single Page Application (SPA) designed to help users track their daily activities, calculate total minutes, analyze categories, and monitor time usage through a dashboard.
@@ -21,7 +21,7 @@ Authentication
 Email/password login
 Secure session using Firebase Auth
 Auto-redirect after login
-......................................................................................................................................................................................
+
 📊 Dashboard
 Shows statistics for the current date:
 Total Minutes Logged
@@ -30,7 +30,7 @@ Daily Average
 Remaining Minutes
 Recent Activities
 
-.......................................................................................................................................................................................
+
 
 🎨 UI/UX
 
@@ -39,7 +39,7 @@ Dark theme
 Fully responsive layout
 Sidebar navigation SPA
 Smooth page switching
-......................................................................................................................................................................................
+
 🛠️ Tech Stack
 Technology	Purpose
 HTML / CSS / JS	Core frontend
@@ -47,7 +47,7 @@ Firebase Auth	User login
 Firebase Realtime Database	Store activities
 Chart.js (future)	Analytics & graphs
 Vanilla SPA Router	Page switching
-.....................................................................................................................................................................................
+
 📁 Project Structure
 TimeTrack/
 │
@@ -57,7 +57,7 @@ TimeTrack/
 ├── spa.js                    # SPA navigation
 ├── firebase.js               # Firebase config (optional)
 ├── README.md                 # Documentation
-................................................................................................................................................................................
+
 🔧 Firebase Setup
 
 Go to Firebase Console
@@ -81,7 +81,7 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 
-..........................................................................................................................................................................................
+
 Database structure:
 
 users
@@ -92,7 +92,6 @@ users
                         ├─ name
                         ├─ category
                         └─ minutes
-..................................................................................................................................................................................
 
 ▶️ Run the Project
 
@@ -100,7 +99,6 @@ Open with Live Server or any local server:
 # Using VS Code Live Server
 Right-click → "Open with Live Server"
 
-...................................................................................................................................................................................
 📌 Future Enhancements
 
 Weekly summary
