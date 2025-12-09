@@ -1,1 +1,13 @@
 # Tick-Tick-TimeTrack
+
+
+Quick Project Structure
+├── index.html              # Entry HTML            ...
+├── auth.js                 # Authentication       ......
+├── firebase.js             # config firebase       .....
+├── styles.css              # CSS config         ......... 
+├──  app.js 
+├──  app.html
+├──  spa.js
+├──  dashboard.html
+├──  dashboard.css
