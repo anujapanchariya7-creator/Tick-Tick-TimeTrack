@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tick Tick TimeTrack </title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Firebase v8 (namespaced) -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+</head>
+<body class="page-auth">
+  <main class="auth-container card">
+    <div class="brand">
+      <h1>Tick Tick TimeTrack</h1>
+      <p>Log your minutes. Know your day.</p>
+    </div>
+
+    <div class="tabs">
+      <button id="showLogin" class="tab active">Login</button>
+      <button id="showSignup" class="tab">Sign up</button>
+    </div>
+
+    <form id="loginForm" class="form">
+      <input id="loginEmail" type="email" placeholder="Email" required />
+      <input id="loginPassword" type="password" placeholder="Password" required />
+      <button type="submit" class="btn">Login</button>
+      <button id="googleLogin" type="button" class="btn outline">Continue with Google</button>
+      <p class="muted small">Or switch to <a href="#" id="toSignup">Sign up</a></p>
+    </form>
+
+    <form id="signupForm" class="form hidden">
+      <input id="signupName" type="text" placeholder="Full name" required />
+      <input id="signupEmail" type="email" placeholder="Email" required />
+      <input id="signupPassword" type="password" placeholder="Password (6+ chars)" minlength="6" required />
+      <button type="submit" class="btn">Create account</button>
+      <p class="muted small">Already have account? <a href="#" id="toLogin">Login</a></p>
+    </form>
+
+    <p id="authMsg" class="muted center"></p>
+    <footer class="muted small">Made with ♥ • Responsive • Works on mobile</footer>
+  </main>
+
+  <script src="firebase.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>

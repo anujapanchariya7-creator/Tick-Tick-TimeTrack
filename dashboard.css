@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f1626;
+  color: white;
+  overflow: hidden;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+/* Side Menu */
+.sidebar {
+  width: 240px;
+  background: #1c2536;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.menu-item {
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+  opacity: .7;
+}
+
+.menu-item:hover,
+.menu-item.active {
+  background: #27344a;
+  opacity: 1;
+}
+
+.logout-btn {
+  margin-top: auto;
+  padding: 12px;
+  background: #ff5252;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Main */
+.main-area {
+  flex: 1;
+  position: relative;
+}
+
+/* CLOCK BACKGROUND */
+.clock-bg {
+  background: url("clock.png") no-repeat center;
+  background-size: contain;
+  opacity: 0.18;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* Content */
+.content-box {
+  position: relative;
+  padding: 50px;
+}
+
+.timer-box {
+  margin-top: 40px;
+}
+
+#liveTime {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.start { background: #00c853; }
+.stop { background: #ff1744; }
